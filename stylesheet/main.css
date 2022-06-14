@@ -1,0 +1,20 @@
+.main-content{
+    /* Top Right Bottom Left */
+    padding: 80px 30px 50px 50px;
+
+}
+.main-content > h1 {
+    font-weight: 700;
+    color: var(--almost-black);
+}
+.main-content > p {
+    font-weight: 500;
+}
+
+.desktop-img-desktop{
+    margin: 0 0 0 80px;
+    width: 60%; /*485*/
+    height: auto ; /* 93% */
+}
+
+
