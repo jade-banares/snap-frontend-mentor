@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jade Banares">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/stylesheet/style.css">
+  
+  <title>Frontend Mentor | Jade Banares</title>
+ 
+</head>
+<body>
+  <header class="header">
+      <!-- Nav Bar -->
+      <nav class="flex space-between">
+        <a href="#" class="header-logo">
+          <img src="./images/logo.svg" alt="Snap">
+        </a>
+
+        <div class="middle-link header-links font--medium hide-for-mobile">
+          <a href="#">Features <i class="fa fa-angle-down"></i> </a>
+          <a href="#">Company <i class="fa fa-angle-down"></i></a>
+          <a href="#">Careers</a>
+          <a href="#">About</a>
+        </div>
+
+        <div class="header-rlinks font--medium hide-for-mobile">
+          <a href="#">Login</a>
+          <a href="#" class="btn-reg">Register</a>
+        </div>
+        
+        <!-- Hamburger Menu -->
+        <div id="mySidenav" class="sidenav hide-for-desktop">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Features <i class="fa fa-angle-down"></i></a>
+          <a href="#">Company <i class="fa fa-angle-down"></i></a>
+          <a href="#">Careers</a>
+          <a href="#">About</a>
+          <div class="side">
+            <a href="#">Login</a>
+            <a href="#" class="side-register">Register</a>
+          </div>
+
+          <ul>
+            <li class="menu-list">
+              <input type="checkbox" checked>
+              <i></i>
+              <p>Features</p>
+              <a href="#" class="side-list"><img src="/images/icon-todo.svg" alt=""> Todo List</a>
+              <a href="#" class="side-list"><img src="/images/icon-calendar.svg" alt=""> Calendar</a>
+              <a href="#" class="side-list"><img src="/images/icon-reminders.svg" alt=""> Reminders</a>
+              <a href="#" class="side-list"><img src="/images/icon-planning.svg" alt=""> Planning</a>
+            </li>
+            <li class="menu-list">
+              <input type="checkbox" checked>
+              <i></i>
+              <p>Company</p>
+              <a href="#" class="side-list">History</a>
+              <a href="#" class="side-list">Our Team</a>
+              <a href="#" class="side-list">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="header-menu hide-for-desktop" onclick="openNav()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </nav>
+      <!-- End of Nav Bar-->
+  </header>
+
+  <main>
+    <section>
+      <div class="content">
+        <div class="snap-bgimage">
+          <img src="/images/image-hero-mobile.png" class="desktop-img hide-for-desktop" alt="">
+         
+        </div>
+        <div class="main-content">
+          <h1>Make remote work</h1>
+          <p>Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+          <br>
+          <a href="#" class="btn-learn-more font--bold">Learn more</a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="ai-center client-logos">
+            <img src="/images/client-databiz.svg" alt="DataBiz">
+            <img src="/images/client-audiophile.svg" alt="AudioPhile">
+            <img src="/images/client-meet.svg" alt="Meet">
+            <img src="/images/client-maker.svg" alt="Maker">
+          </div>
+        </div>
+        <div class="snap-bgimage snap-bgimage-desktop">
+          <img src="/images/image-hero-desktop.png" class="desktop-img-desktop hide-for-mobile" alt="">
+        </div>
+      </div>
+    </section>
+    <section>
+      
+    </section>
+  </main>
+  
+  <footer>
+    <div class="attribution ai-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">: Front-End Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Hide-andSeek" target="_blank">: Hide-andSeek</a>.
+    </div>
+  </footer>
+
+  <script src="/javascript/functionality.js"></script>
+</body>
+</html>
