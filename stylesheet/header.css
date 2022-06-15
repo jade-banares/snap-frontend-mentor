@@ -1,0 +1,51 @@
+/* --Customizing Navigation Bar-- */
+
+nav{
+    padding: 30px;
+}
+
+.header-menu > span{
+    display: block;
+    width: 1.625rem;
+    height: 0.125rem;
+    background-color: black;
+}
+
+span:not(:last-child){
+    margin-bottom: 6px;
+}
+
+.header-links, .header-rlinks{
+    font-size: var(--font-size);
+    font-weight: 700;
+}
+
+.header-links{
+    margin-left: -400px;
+}
+
+a:hover{
+    transition: 0.5s;
+    color: var(--almost-black);
+}
+ 
+a:not(:last-child){
+    margin-right: 42px;
+}
+
+a.btn-reg:nth-child(2){
+    padding: 12px 22px;
+    border: 2px solid var(--medium-gray);
+    border-radius: 15px;
+}
+a.btn-reg:hover{
+    border: 2px solid var(--almost-black);
+}
+
+.client-logos > img{
+    position: relative;
+    height: 19px;
+    margin: 0 20px 20px 20px;
+  }
+
+ 

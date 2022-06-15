@@ -1,0 +1,13 @@
+/* --Variables-- */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+
+:root{
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+    --font-family: 'Epilogue', sans-serif;
+    --font-size: 0.875rem; /* 14px */
+    --font-size-lg: 1.125rem; /* 18px */
+}
